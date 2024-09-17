@@ -1,0 +1,144 @@
+/* General Reset */
+* {
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+     }
+     
+     body {
+       font-family: Arial, sans-serif;
+       background-color: #141722;
+       color: #fff;
+       text-align: center;
+     }
+     
+     header {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 20px;
+       background-color: #1b1f2a;
+     }
+     
+     header .logo h1 {
+       color: #00fff5;
+       font-size: 28px;
+     }
+     
+     header .controls button {
+       background-color: #2a2e38;
+       border: none;
+       color: #fff;
+       padding: 10px 20px;
+       margin: 0 5px;
+       cursor: pointer;
+     }
+     
+      .connect-telegram {
+       background-color: #00fff5;
+     }
+     .connect-div button {
+       background-color: #00fff5;
+       border: none;
+       color: #fff;
+       padding: 10px 20px;
+       margin: 0 5px;
+       cursor: pointer;
+       border-radius: 10px;
+     }
+     
+     main {
+       padding: 20px;
+     }
+     
+     .price-info {
+       margin-bottom: 30px;
+     }
+     
+     .price-info .price-data {
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+     }
+     .percentage{
+       display: flex;
+    width: 100%;
+    justify-content: space-around;
+     }
+     .price-info .percentage p {
+       color: #00fff5;
+       font-size: 18px;
+       margin: 10px 0;
+       
+     }
+     
+     .price-info .percentage span {
+       font-size: 12px;
+       color: #a5a5a5;
+     }
+     
+     .best-price h2 {
+       color: #888;
+     }
+     
+     .best-price h1 {
+       font-size: 40px;
+       color: #fff;
+     }
+     
+     .price-table table {
+       width: 100%;
+       border-collapse: collapse;
+       margin-top: 20px;
+     }
+     
+     .price-table th, .price-table td {
+       padding: 15px;
+       border: 1px solid #2a2e38;
+     }
+     
+     .price-table th {
+       background-color: #1b1f2a;
+       color: #a5a5a5;
+     }
+     
+     .price-table td {
+       background-color: #141722;
+     }
+     
+     .price-table .positive {
+       color: #00ff88;
+     }
+     
+     .price-table .negative {
+       color: #ff4d4f;
+     }
+     
+     footer {
+       margin-top: 20px;
+     }
+     
+     footer button {
+       background-color: #00fff5;
+       border: none;
+       color: #000;
+       padding: 10px 20px;
+       cursor: pointer;
+       font-size: 16px;
+     }
+     
+     @media (max-width: 768px) {
+       header, .price-info .price-data {
+         flex-direction: column;
+         text-align: center;
+       }
+     
+       .price-info .price-data {
+         margin-bottom: 20px;
+       }
+     
+       .price-table table {
+         font-size: 12px;
+       }
+     }
+     
