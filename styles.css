@@ -34,9 +34,12 @@
        cursor: pointer;
      }
      
-      .connect-telegram {
+     .connect-telegram {
        background-color: #00fff5;
-     }
+       display: flex;
+       align-items: center;
+       gap: 10px;
+   }
      .connect-div button {
        background-color: #00fff5;
        border: none;
@@ -141,4 +144,5 @@
          font-size: 12px;
        }
      }
+     
      

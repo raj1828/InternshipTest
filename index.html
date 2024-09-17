@@ -6,6 +6,8 @@
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <title>HodlInfo Clone</title>
        <link rel="stylesheet" href="styles.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 
 <body>
@@ -14,12 +16,12 @@
                      <h1>HODLINFO</h1>
               </div>
               <div class="controls">
-                     <button>INR</button>
-                     <button>BTC</button>
+                     <button>INR &nbsp;<i class="fa-solid fa-sort-down"></i></i></button>
+                     <button>BTC &nbsp;<i class="fa-solid fa-sort-down"></i></i></button>
                      <button>BUY BTC</button>
               </div>
               <div class="connect-div">
-                     <button class="connect-telegram">Connect Telegram</button>
+                     <button class="connect-telegram"><i class="fab fa-telegram-plane"></i>Connect Telegram</button>
               </div>
        </header>
 
@@ -40,7 +42,7 @@
               </section>
 
               <section class="price-table">
-                     <table>
+                     <table class="crypto-table">
                             <thead>
                                    <tr>
                                           <th>#</th>
@@ -54,23 +56,24 @@
                             <tbody>
                                    <tr>
                                           <td>1</td>
-                                          <td>WazirX</td>
+                                          <td><img src="wazirx.png" alt="WazirX Icon"> WazirX</td>
                                           <td>₹ 25,72,612</td>
                                           <td>₹ 25,72,610 / ₹ 25,72,612</td>
-                                          <td class="negative">-3.14%</td>
-                                          <td>₹ 83,498</td>
+                                          <td><span class="negative">-3.14 %</span></td>
+                                          <td><span class="negative savings">₹ 83,498</span></td>
                                    </tr>
                                    <tr>
                                           <td>2</td>
-                                          <td>BitBns</td>
+                                          <td><img src="bitbns.png" alt="Bitbns Icon"> Bitbns</td>
                                           <td>₹ 28,83,906</td>
                                           <td>₹ 28,55,164 / ₹ 28,82,157</td>
-                                          <td class="positive">8.58%</td>
-                                          <td>₹ 2,27,796</td>
+                                          <td><span class="positive">8.58 %</span></td>
+                                          <td><span class="positive savings">₹ 2,27,796</span></td>
                                    </tr>
-                                   <!-- Add more rows as necessary -->
+                                   <!-- Add more rows as needed -->
                             </tbody>
                      </table>
+
               </section>
        </main>
 
